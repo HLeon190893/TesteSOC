@@ -11,7 +11,6 @@ import pages.FAPPage;
 import pages.FAPResultPage;
 import utilities.DriverFactory;
 
-import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
 
 public class StepDefs_FAP {
@@ -55,7 +54,6 @@ public class StepDefs_FAP {
     @When("Preecher os campos exceto FAP")
     public void preecher_os_campos_exceto_FAP() {
         fpage.preencherCampoNomeDaEmpresa("Empresa TA");
-//        fpage.preencherCampoFAP(10.10);
         DriverFactory.getDriver().findElement(By.className("selectric")).click();
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         fpage.preencherCampoRAT(1);
@@ -73,9 +71,6 @@ public class StepDefs_FAP {
     public void preecher_os_campos_exceto_RAT() {
         fpage.preencherCampoNomeDaEmpresa("Empresa TA");
         fpage.preencherCampoFAP(10.10);
-//        DriverFactory.getDriver().findElement(By.className("selectric")).click();
-//        DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-//        fpage.preencherCampoRAT(1);
         fpage.preencherCampoProjecaoDeMassaSalarial(1000.0);
     }
 
@@ -93,7 +88,6 @@ public class StepDefs_FAP {
         DriverFactory.getDriver().findElement(By.className("selectric")).click();
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         fpage.preencherCampoRAT(1);
-//        fpage.preencherCampoProjecaoDeMassaSalarial(1000.0);
     }
 
     @Then("Eu clico no botao Simular FAP e recebo uma mensagem avisando que o campo Projecao de Massa Salarial é obrigatorio")
