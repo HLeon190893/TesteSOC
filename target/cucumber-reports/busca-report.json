@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Acessar a página do SOC Blog",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6773991500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Que eu abra o navegador e o site",
+            "match": {
+              "location": "StepDefs_Busca.que_eu_abra_o_navegador_e_o_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-09T02:42:24.699Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11119619700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs_Busca.iniciarDriver()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Busca Realizada com Sucesso",
+        "description": "",
+        "id": "validar-funcionalidade-de-busca-do-blog-soc;busca-realizada-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 154094500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs_Busca.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2030096700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Eu preencher o campo e pesquisar",
+            "match": {
+              "location": "StepDefs_Busca.eu_preencher_o_campo_e_pesquisar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77671600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Devo ser encaminhado para pagina com o resultado da pesquisa",
+            "match": {
+              "location": "StepDefs_Busca.devo_ser_encaminhado_para_pagina_com_o_resultado_da_pesquisa()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Acessar a página do SOC Blog",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4975030500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Que eu abra o navegador e o site",
+            "match": {
+              "location": "StepDefs_Busca.que_eu_abra_o_navegador_e_o_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-09T02:42:44.893Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9395079900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs_Busca.iniciarDriver()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Falha na Realização da Busca",
+        "description": "",
+        "id": "validar-funcionalidade-de-busca-do-blog-soc;falha-na-realização-da-busca",
+        "after": [
+          {
+            "result": {
+              "duration": 92000500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs_Busca.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1239338600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Eu preencher o campo com valores nao existentes na base",
+            "match": {
+              "location": "StepDefs_Busca.eu_preencher_o_campo_com_valores_nao_existentes_na_base()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40479200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Devo ser encaminhado para pagina dizendo que a busca nao trouxe resultados",
+            "match": {
+              "location": "StepDefs_Busca.devo_ser_encaminhado_para_pagina_dizendo_que_a_busca_nao_trouxe_resultados()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Acessar a página do SOC Blog",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4145133400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Que eu abra o navegador e o site",
+            "match": {
+              "location": "StepDefs_Busca.que_eu_abra_o_navegador_e_o_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-09T02:43:00.637Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9368176500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs_Busca.iniciarDriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validar Botão de Limpeza do Campo",
+        "description": "",
+        "id": "validar-funcionalidade-de-busca-do-blog-soc;validar-botão-de-limpeza-do-campo",
+        "after": [
+          {
+            "result": {
+              "duration": 142733900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs_Busca.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 238727200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Eu preencher o campo e clicar no botão Limpar",
+            "match": {
+              "location": "StepDefs_Busca.eu_preencher_o_campo_e_clicar_no_botão_Limpar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26723200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "O campo deve ficar vazio",
+            "match": {
+              "location": "StepDefs_Busca.o_campo_deve_ficar_vazio()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validar Funcionalidade de Busca do Blog SOC",
+    "description": "",
+    "id": "validar-funcionalidade-de-busca-do-blog-soc",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/hugol/IdeaProjects/TesteSOC/features/Busca.feature",
+    "tags": []
+  }
+]
